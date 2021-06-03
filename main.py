@@ -229,6 +229,7 @@ class MainWindow(QMainWindow):
             self.urlbar.setText(filename)
 
     def save_file(self):
+        pass
         filename, _ = QFileDialog.getSaveFileName(self, "Save Page As", "",
                                                   "Hypertext Markup Language (*.htm *html);;"
                                                   "All files (*.*)")
